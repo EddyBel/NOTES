@@ -2,9 +2,9 @@
 title: "Test de archivo de markdown"
 description: "prueba de mardown"
 date: "8/16/2022"
-theme: "JS"
-files: ["main.js", "main.py"]
+tags: "Test, Markdown, Documento, Prueba"
 front: "https://images.pexels.com/photos/12663061/pexels-photo-12663061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+level: "Medio"
 important: true
 ---
 
@@ -29,26 +29,34 @@ lista
 - prueba 3
 
 <Underlined words={["texto", "subrallado"]}>
-  Prueba de texto subrallado
+Prueba de texto subrallado
 </Underlined>
 
 <Underlined words={["Este es un mensaje subrallado"]}>
-  Este es un mensaje subrallado
+Este es un mensaje subrallado
 </Underlined>
 
 Texto tachado **EWER**
 
-Prueba de __contenido__
+Prueba de **contenido**
 
 Prueba de _contenido_
 
-prueba de *contenido*
+prueba de _contenido_
 
-> Prueba de contenido
->> Segunda cita
->>> Tercera cita
+> Primera cita, principal
+>
+> > Segunda cita anidada
+> >
+> > > Tercera cita anidada
+> > >
+> > > > Cuarta cita anidada
+>
+> Continuacion de la primera cita
+>
+> > Segunda cita independiente
 
-*Este es un texto subrallado*
+_Este es un texto subrallado_
 
 ```js
 const { app, BrowserWindow } = require("electron");
@@ -84,6 +92,8 @@ app.on("window-all-closed", () => {
 ```
 
 ![Preview de imagen](https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+
+![Preview imgagen 2](test-document/testIMG.jpg)
 
 ```python
 import pytube
