@@ -86,7 +86,7 @@ La forma en la que Django trabaja es separando las partes del proyecto. A cada p
 
 Esto seria que cuando creamos un proyecto en Django, este contiene sub proyectos llamados apps dentro del proyecto principal, esto nos permite desarrollar cada parte de manera independiente y conectar o desconectar cada parte del proyecto si así lo necesitamos.
 
-![Captura de pantalla_20221117_071825.png](./Como%20crear%20un%20proyecto%20en%20Django%2070df833b8b424d0bbacd0b26e37fe751/Captura_de_pantalla_2022-11-07_092538.png)
+![Captura de pantalla_20221117_071825.png](Estructura%20de%20proyecto%20Django/Captura_de_pantalla_20221117_071825.png)
 
 Django tiene un comando para crear una app de manera sencilla el cual es el siguiente.
 

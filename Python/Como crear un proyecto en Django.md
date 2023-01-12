@@ -40,7 +40,7 @@ python -m django --version
 
 La cual nos dará una salida con la versión del modulo como esta.
 
-![Captura de pantalla 2022-11-07 092538.png](Como%20crear%20un%20proyecto%20en%20Django%2070df833b8b424d0bbacd0b26e37fe751/Captura_de_pantalla_2022-11-07_092538.png)
+![Captura de pantalla 2022-11-07 092538.png](Como%20crear%20un%20proyecto%20en%20Django/Captura_de_pantalla_2022-11-07_092538.png)
 
 ## Creando un nuevo proyecto.
 
@@ -68,11 +68,11 @@ python manage.py runserver
 
 Lo cual nos dará una salida como esta.
 
-![capture.png](Como%20crear%20un%20proyecto%20en%20Django%2070df833b8b424d0bbacd0b26e37fe751/capture.png)
+![capture.png](Como%20crear%20un%20proyecto%20en%20Django/capture.png)
 
 Los aspectos mas importantes para resaltar es que nos dará una dirección , esa dirección hace referencia al puerto de tu maquina donde esta corriendo tu aplicación web. Si en este caso nos conectamos al puerto _127.0.0.1:8000_ o _[localhost:8000](http://localhost:8000)_ veremos lo siguiente en el navegador.
 
-![capture2.png](Como%20crear%20un%20proyecto%20en%20Django%2070df833b8b424d0bbacd0b26e37fe751/capture2.png)
+![capture2.png](Como%20crear%20un%20proyecto%20en%20Django/capture2.png)
 
 > **NOTA**
 >
